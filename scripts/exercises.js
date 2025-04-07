@@ -91,3 +91,4 @@ if (Object.hasOwn(departments, afdelingNaam)) {
 } else {
     console.error('Ongeldige keuze. Probeer het opnieuw door de pagina te verversen.');
 }
+

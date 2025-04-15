@@ -84,11 +84,17 @@ if (Object.hasOwn(departments, afdelingNaam)) {
     const functieTitelGetal = parseInt(functieTitel);
 
     if (functieTitelGetal >= 0 && functieTitelGetal <= 3) {
-        console.log("Je koos " + departments[afdelingNaam].jobs[functieTitelGetal].title + ". Een uitdagende rol! " + departments.marketing.jobs[functieTitelGetal].description);
+        console.log("Je koos " + departments[afdelingNaam].jobs[functieTitelGetal].title + ". Een uitdagende rol! " + departments[afdelingNaam].jobs[functieTitelGetal].description);
     } else {
         console.error('Ongeldige keuze. Probeer het opnieuw door de pagina te verversen.')
     }
 } else {
     console.error('Ongeldige keuze. Probeer het opnieuw door de pagina te verversen.');
 }
+
+///// O P D R A C H T   5 /////
+
+//5a
+// document.getElementById('creator-name').textContent = 'Emil van der Maas';
+// document.getElementById('role-title').textContent = 'Lievelingseten: havermout pannenkoeken';
 

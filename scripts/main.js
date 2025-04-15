@@ -70,5 +70,3 @@ const departments = {
         ],
     }
 }
-
-console.log(departments);
